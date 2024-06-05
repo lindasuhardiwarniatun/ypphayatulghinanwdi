@@ -1,0 +1,314 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Header{
+    background-color: #1A4D2E;
+    margin: -10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Logo1{
+    padding: 15px;
+   
+    margin-left: 150px;
+    position: relative;
+}
+
+.JudulHeader{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 250px;
+    font-size: 20px;
+    
+}
+
+.NavMenu ul{
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4F6F52;
+    background-size: 100% 100%;
+}
+.NavMenu li{
+    float: left;    
+}
+.NavMenu li a{
+    display: block;
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-indent: 10px;  
+    
+    
+}
+.NavMenu li a:hover{
+    background-color: #1A4D2E;
+}
+
+.KontainerKOnten{
+    margin: 0;
+    padding: 25px;
+}
+.Berita{
+    width: 100%;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Berita .bagianBerita{
+    font-size: 20px;
+}
+.Berita .KolomBerita{
+    width: 30%;
+    float: left;
+    text-align: justify;
+    padding: 7px;
+    background-position: 100% 100%;
+}
+.KolomBerita{
+    border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 20px;
+  
+}
+.KolomBerita img{
+    float: left;
+    margin-top: 1px;
+    padding: 10px;
+}
+.KolomBerita p{
+    padding-right: -80px;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+}
+.footer-content, .social-media{
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-content::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.footer-links ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+.footer-links li {
+
+    display: inline;
+
+    margin-right: 20px;
+}
+.footer-links a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+.social-media img {
+
+    width: 30px;
+
+    height: 30px;
+
+    margin-right: 10px;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .footer{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin-top: 1px;
+    
+  }
+
+  .footer .judulFooter{
+    
+    margin-left: 50px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+  }
+   
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+   
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+   
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.profil {
+    border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 300px;
+  text-align: justify;
+  margin-top: 30px;
+    
+  }
+   
+  div.profil:hover {
+    border: 1px solid #777;
+    color: #fff;
+    background-color: #1A4D2E;
+    border: 3px solid rgb(8, 196, 8);
+  }
+   
+  div.profil img {
+    float: left;
+    margin-top: 1px;
+    padding: 10px;
+  }
+  div.descr {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  div.tentang {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    margin-top: 30px;
+  }
+
+  div.tentang img{
+    width: 100%;
+    height: auto;
+  }
+  div.descri{
+    padding: 15px;
+    text-align: center;
+  }
+
+  .descrip{
+    margin: 5px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    
+  }
+
+  ul{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  ul li{
+    list-style: none;
+    display: inline;
+  }
+  video{
+    width: 200px;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+  .potosmp{
+    border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 300px;
+  margin-left: 300px;
+  text-align: justify;
+  }
+  .potosmp img{
+    float: left;
+    margin-top: 1px;
+    border-radius: 8px;
+    border: 2px solid #555;
+  }
+  h1,h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3CA52;
+    
+}
+input[type=text]{
+    width: 50%;
+    padding: 3px;
+}
+input[type=date]{
+    width: 40%;
+    padding: 3px;
+}
+
+select{
+    width: 40%;
+    padding: 3px;
+}
+table{
+  color: #1A4D2E;
+}
+
+table,tr,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table{
+  width: 80%;
+  font-family: 'philosopher';
+  
+}
+th{
+  background-color: #51829B;
+  color: azure;
+}
+
+
+
+tr:hover{
+  background-color: #CDE8E5;
+}
+
+
+tr:nth-child(odd){
+  background-color: #EEF7FF;
+}
+
+
+  
+  
+  
+
